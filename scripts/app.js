@@ -36,6 +36,7 @@ function getWiki(query, callback) {
 function render() {
   var title, description, url;
 
+
   if(model.wikiArticles[1].length === 0) {
     $wikiList.text("Please try again, we didn't find shit.");
       return;
@@ -44,9 +45,11 @@ function render() {
   for(var i = 0; i < model.wikiArticles[1].length; i++) {
       title = model.wikiArticles[1][i];
       description = model.wikiArticles[2][i];
+
       url = 'http://en.wikipedia.org/wiki/' + title;
 
-      $wikiList.append('<li><a href="' + url + '">' + title + "<BR>" + description + '</a></li>');
+
+      $wikiList.append('<li><a href="' + url + '">' + title + '</a>' + "<BR>" + description + '</li>');
     };
 
 };

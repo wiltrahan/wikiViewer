@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Raleway');
+
+body {
+  background-color: #EDEDED;
+}
+
+header h1 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 60px;
+  color: #444443;
+}
+
+form label {
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+button {
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #DCDCDD;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+ul {
+  background-color: #FB3640;
+  padding-left: 0px;
+
+}
+
 ul li {
-  padding: 5px;
+  padding: 15px;
+  list-style-type: none;
+  margin-top: 2px;
+  font-family: 'Raleway', sans-serif;
+
+}
+li {
+  background-color: #C5C3C6;
+}
+
+li:nth-child(odd) {
+  background-color: #DCDCDD;
+}
+
+li a {
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  color: #1758EF;
 }
