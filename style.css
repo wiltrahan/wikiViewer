@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Raleway');
 
 body {
-  background-color: #EDEDED;
+  background-color: #292F36;
+}
+
+#main {
+
+  margin-top: 80px;
 }
 
 header h1 {
   font-family: 'Cabin', sans-serif;
   font-size: 60px;
-  color: #444443;
+  color: #F7FFF7;
 }
 
 form label {
+  color: #F7FFF7;
   font-size: 20px;
   padding: 10px;
   font-family: 'Raleway', sans-serif;
@@ -20,11 +26,13 @@ button {
   border-radius: 5px;
   background-color: #DCDCDD;
   font-family: 'Cabin', sans-serif;
+  background-color: #F7FFF7;
+  border: 1px solid #FFE66D;
 
 }
 
 ul {
-  background-color: #FB3640;
+  background-color: #FFE66D;
   padding-left: 0px;
 
 }
@@ -52,8 +60,13 @@ li a {
 #about {
   font-family: 'Cabin', sans-serif;
   font-size: 30px;
-  color: #444443;
+  color: #F7FFF7;
 }
 #submit-btn-random {
   width: 280px;
+  background-color: #F7FFF7;
+  border: 1px solid #FFE66D;
+}
+#error {
+  color: #F7FFF7;
 }
