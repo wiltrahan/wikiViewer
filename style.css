@@ -5,34 +5,38 @@ body {
 }
 
 #main {
-
+  background-color: #45A550;
   margin-top: 80px;
+  padding-left: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.53);
 }
 
 header h1 {
   font-family: 'Cabin', sans-serif;
-  font-size: 60px;
-  color: #F7FFF7;
+  font-size: 80px;
+  color: #292F36;
 }
 
 form label {
-  color: #F7FFF7;
+  color: #292F36;
   font-size: 20px;
   padding: 10px;
   font-family: 'Raleway', sans-serif;
 }
 button {
-  padding: 2px;
+  padding: 4px;
   border-radius: 5px;
-  background-color: #DCDCDD;
   font-family: 'Cabin', sans-serif;
-  background-color: #F7FFF7;
-  border: 1px solid #FFE66D;
+  background-color: #292F36;
+  border: 1px solid #292F36;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.53);
+  color: #F7FFF7;
 
 }
 
 ul {
-  background-color: #FFE66D;
+  background-color: #C9ADA1;
   padding-left: 0px;
 
 }
@@ -60,12 +64,15 @@ li a {
 #about {
   font-family: 'Cabin', sans-serif;
   font-size: 30px;
-  color: #F7FFF7;
+  color: #292F36;
 }
 #submit-btn-random {
-  width: 280px;
-  background-color: #F7FFF7;
-  border: 1px solid #FFE66D;
+  width: 240px;
+  background-color: #292F36;
+  color: #F7FFF7;
+  border: 1px solid #292F36;
+  margin-left: 10px;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.53);
 }
 #error {
   color: #F7FFF7;
