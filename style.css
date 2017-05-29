@@ -49,3 +49,11 @@ li a {
   font-size: 20px;
   color: #1758EF;
 }
+#about {
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  color: #444443;
+}
+#submit-btn-random {
+  width: 280px;
+}

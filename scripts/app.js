@@ -4,12 +4,13 @@ var model = {
 };
 
 var $wikiList = $('#wikipedia-links');
+var $error = $("#error");
 
 function getWiki(query, callback) {
 
 
   if(query.length < 1) {
-      $wikiList.text("Please try again and actually search for something this time.");
+      $error.text("Please try again and actually search for something this time.");
       return;
   }
 
@@ -33,23 +34,29 @@ function getWiki(query, callback) {
   });
 };
 
+
 function render() {
-  var title, description, url;
+  var title, description, about, url;
+
 
 
   if(model.wikiArticles[1].length === 0) {
-    $wikiList.text("Please try again, we didn't find shit.");
+    $error.text("Please try again, we didn't find anything.");
       return;
   }
 
   for(var i = 0; i < model.wikiArticles[1].length; i++) {
+      about = model.wikiArticles[0];
       title = model.wikiArticles[1][i];
       description = model.wikiArticles[2][i];
 
       url = 'http://en.wikipedia.org/wiki/' + title;
 
+      $("#about").html("Here are some articles about " + about);
 
       $wikiList.append('<li><a href="' + url + '">' + title + '</a>' + "<BR>" + description + '</li>');
     };
 
 };
+
+
