@@ -52,7 +52,7 @@ function render() {
 
       url = 'http://en.wikipedia.org/wiki/' + title;
 
-      $("#about").html("Here are some articles about " + about);
+      $("#about").html("Here are some articles about " + about.toUpperCase());
 
       $wikiList.append('<li><a href="' + url + '">' + title + '</a>' + "<BR>" + description + '</li>');
     };
