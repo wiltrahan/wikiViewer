@@ -1,21 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Raleway');
 
+@font-face {
+    font-family: LinLib;
+    src: url('LinLibertine_Rah.ttf');
+}
+
 body {
-  background-color: #292F36;
+  background-color: white;
 }
 
 #main {
-  background-color: #45A550;
+  background-color: white;
   margin-top: 80px;
   padding-left: 0px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.53);
+  /*border-radius: 5px;
+  box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.40);*/
+  padding-bottom: 20px;
 }
 
 header h1 {
-  font-family: 'Cabin', sans-serif;
+  font-family: LinLib;
   font-size: 80px;
   color: #292F36;
+}
+
+header h1 span {
+  font-size: 60px;
+}
+
+#subHead {
+  font-family: LinLib;
+  font-size: 15px;
+  margin-top: -20px;
 }
 
 form label {
@@ -24,6 +40,7 @@ form label {
   padding: 10px;
   font-family: 'Raleway', sans-serif;
 }
+
 button {
   padding: 4px;
   border-radius: 5px;
@@ -32,11 +49,10 @@ button {
   border: 1px solid #292F36;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.53);
   color: #F7FFF7;
-
 }
 
 ul {
-  background-color: #C9ADA1;
+  background-color: #292F36;
   padding-left: 0px;
 
 }
@@ -46,7 +62,6 @@ ul li {
   list-style-type: none;
   margin-top: 2px;
   font-family: 'Raleway', sans-serif;
-
 }
 li {
   background-color: #C5C3C6;
